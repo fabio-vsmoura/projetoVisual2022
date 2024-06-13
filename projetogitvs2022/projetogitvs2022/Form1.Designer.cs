@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            bt_message = new Button();
+            SuspendLayout();
+            // 
+            // bt_message
+            // 
+            bt_message.Location = new Point(298, 215);
+            bt_message.Name = "bt_message";
+            bt_message.Size = new Size(156, 23);
+            bt_message.TabIndex = 0;
+            bt_message.Text = "ExibirMensagem";
+            bt_message.UseVisualStyleBackColor = true;
+            bt_message.Click += bt_message_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(bt_message);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button bt_message;
     }
 }
