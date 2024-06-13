@@ -16,7 +16,6 @@ namespace projetogitvs2022
             MessageBox.Show("vejamos!!");
             MessageBox.Show("vejamos2!!");
 
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
