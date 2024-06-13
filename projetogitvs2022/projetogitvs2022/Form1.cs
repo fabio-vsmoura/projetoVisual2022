@@ -12,6 +12,8 @@ namespace projetogitvs2022
             MessageBox.Show("Hello, World!!!");
             MessageBox.Show("Vamos continuar fazendo o nosso trabalho!");
             MessageBox.Show("trabalhar em grupo fica um pouco mais fácil assim!");
+            MessageBox.Show("Postagem do colaborador de teste");
+
 
         }
     }
